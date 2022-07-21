@@ -86,4 +86,14 @@ body {
   color: #FFFFFF;
   background-image: url("../img/Pesquisa.svg");
   background-repeat: no-repeat;
+}
+
+.carrossel {
+  color: #EB9B00;
+  background-color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 1em 0 0.5em 0;
 }/*# sourceMappingURL=main.css.map */
