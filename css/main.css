@@ -56,6 +56,42 @@ body {
   padding: 1em;
 }
 
+.container__titulo,
+.opcoes {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__titulo,
+.container__titulo--negrito {
+    font-family: "Josefin Sans";
+    font-size: 30px;
+  }
+  .container__titulo {
+    font-weight: 400;
+    display: block;
+  }
+  .container__titulo--negrito {
+    font-weight: 700;
+  }
+  .opcoes {
+    display: flex;
+  }
+  .opcoes .opcoes__item {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+  .opcoes .opcoes__item .opcoes__link {
+    text-decoration: none;
+    color: #000000;
+  }
+  .container__imagem-transparente {
+    display: none;
+  }
+  .cabecalho__menu-hamburguer {
+    display: none;
+  }
+}
 .banner {
   background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
   color: #EBECEE;
