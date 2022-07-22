@@ -100,6 +100,54 @@ body {
 .carrossel .swiper-slide img {
   width: 100%;
 }
+.carrossel .card {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+}
+.carrossel .card .card__descricao {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.2em;
+}
+.carrossel .card .card__descricao .descricao {
+  margin-right: 0.2em;
+}
+.carrossel .card .card__descricao .descricao .img__estrela {
+  padding-bottom: 0.9em;
+}
+.carrossel .card .card__descricao .descricao .descricao__titulo {
+  color: #EB9B00;
+  font-weight: 700;
+}
+.carrossel .card .card__descricao .descricao .descricao__titulo-livro {
+  color: #002F52;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+.carrossel .card .card__descricao .descricao .descricao__texto {
+  font-size: 14px;
+}
+.carrossel .card .card__botoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carrossel .card .card__botoes .botoes {
+  display: flex;
+}
+.carrossel .card .card__botoes .botoes .botao__item {
+  margin: 0.5em 0;
+}
+.carrossel .card .card__botoes .botao__ancora {
+  background-color: #EB9B00;
+  padding: 1em 2.2em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -109,4 +157,81 @@ body {
 .swiper-pagination {
   position: initial;
   margin: 0.5em 0;
+}
+
+.topicos {
+  background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  text-align: center;
+  padding: 1em 0;
+}
+.topicos .topicos__titulo {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 0 0 0.5em 0;
+}
+.topicos .topicos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.topicos .topicos__lista .topicos__item {
+  margin: 2em 0.5em;
+}
+.topicos .topicos__lista .topicos__link {
+  color: #FFFFFF;
+  padding: 1em;
+  background-color: #EB9B00;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contato {
+  background-color: #FFFFFF;
+  padding: 1em;
+}
+.contato .contato__titulo,
+.contato .contato__texto {
+  background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.contato .contato__texto {
+  font-weight: 300;
+  margin: 1em 0;
+}
+.contato .contato__titulo {
+  font-size: 18px;
+  font-weight: 500;
+}
+.contato .contato__email {
+  padding: 1em;
+  border: 1px solid #002F52;
+  border-radius: 24px;
+  width: 90%;
+  color: #002F52;
+}
+.contato .contato__email::placeholder {
+  font-family: "Poppins";
+  color: #002F52;
+  background-image: url("../img/Email.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-left: 2em;
+}
+
+hr {
+  margin: 0;
+}
+
+.footer {
+  background-color: #FFFFFF;
+  padding: 1em;
+}
+.footer .rodape__titulo {
+  font-weight: 400;
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
