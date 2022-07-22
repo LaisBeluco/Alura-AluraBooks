@@ -94,12 +94,23 @@ body {
         color: $color-preto;
       }
     }
+    .opcao__botao:checked ~ .lista-menu {
+      display: block;
+      width: auto;
+    }
+    .opcao__botao {
+      display: none;
+    }
   }
 
   .container__imagem-transparente {
     display: none;
   }
-  .cabecalho__menu-hamburguer {
-    display: none;
+  .cabecalho {
+    .container {
+      .cabecalho__menu-hamburguer {
+        display: none;
+      }
+    }
   }
 }

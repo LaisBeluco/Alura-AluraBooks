@@ -29,3 +29,16 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .topicos {
+    .topicos__titulo {
+      font-size: 24px;
+    }
+    .topicos__item{
+    .topicos__link{
+      font-size: 24px;
+    }
+  }
+  }
+}
