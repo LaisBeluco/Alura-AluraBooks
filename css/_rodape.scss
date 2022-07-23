@@ -45,3 +45,14 @@ hr {
     display: block;
   }
 }
+
+@media screen and(min-width: 1728px) {
+  .footer {
+    padding: 3em 0;
+  }
+
+  .lista-rodape {
+    border-left: 1px solid $color-cinza-claro;
+    padding-left: 1em;
+  }
+}
